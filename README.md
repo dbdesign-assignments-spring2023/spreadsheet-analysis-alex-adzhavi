@@ -44,7 +44,7 @@ There was missing data for the amount of passes completed by Celta De Vigo. To s
 ## Analysis
 
 ### Aggregrate Statistics
-The statistics displayed in the data set are averages over thirty games \
+The statistics displayed in the data set are averages over thirty games 
 
 
 **Data For Fouls**\
