@@ -39,7 +39,7 @@ There was missing data for the amount of passes completed by Celta De Vigo. To s
 ### Links
 [Original csv file](data/laligaStats.csv) \
 [Clean csv file](data/clean_data.csv) \
-[Spreadsheet file](data/data_spread.xlsx) \
+[Spreadsheet file](data/data_spread.xlsx)
 
 ## Analysis
 
@@ -47,17 +47,17 @@ There was missing data for the amount of passes completed by Celta De Vigo. To s
 The statistics displayed in the data set are averages over thirty games \
 
 
-**Data For Fouls**
+**Data For Fouls**\
 Average fouls committed = 12.47 -> This is quite a large amount for a team to commit per game \
 Maximum fouls committed = 15.1 -> This shows that there exits a team that is quite aggressive \
 Minimum fouls committed = 9.67 -> This shows that even the team with the lowest average of fouls is still fairly aggressive \
-Standard Deviation of fouls Committed -> There is some variability in the number of fouls committed by players, but it is not an extreme amount of variability \
+Standard Deviation of fouls Committed -> There is some variability in the number of fouls committed by players, but it is not an extreme amount of variability 
 
-**Data For Shots On Target If Total Shots Is Greater Than 10**
+**Data For Shots On Target If Total Shots Is Greater Than 10**\
 Average shots on target = 4.22 -> This is quite a small number, this shows that teams are quite inaccurate \
 Maximum shots on target = 5.4 -> This shows that even the team with the highest average is still fairly accurate \
 Minimum shots on target = 3.27 -> This shows that the team with the lowest average of fouls is still quite aggressive \
-Sum of shots on target -> Overall measure of the average number of shots on target by teams with more than ten shots \
+Sum of shots on target -> Overall measure of the average number of shots on target by teams with more than ten shots 
 
 ### Chart
 ![](images/graph.jpg) \
