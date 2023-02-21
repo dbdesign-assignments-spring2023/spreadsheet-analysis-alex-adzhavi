@@ -3,11 +3,11 @@
 ## Details
 
 ### Origin
-The data set comes from Zenodo and it displays the statistics of each soccer team in the Spanish league, La Liga, in 2021.
-[The link for the data set](https://zenodo.org/record/5636156#.Y_QC1OzMJqs)
+The data set comes from Zenodo and it displays the statistics of each soccer team in the Spanish league, La Liga, in 2021. \
+[The link for the data set](https://zenodo.org/record/5636156#.Y_QC1OzMJqs).
 
 ### Format
-csv
+CSV
 
 ### Display
 | Name | Fouls | Corners | Offsides | Passes | Penalties | Possession | RedCard | Shots-Blocked | Shots-InsideBox | Shots-Offtarget | Shots-Ontarget | Shots-OutsideBox | Shots-Total | Tackles | YellowCard |
@@ -37,27 +37,28 @@ csv
 There was missing data for the amount of passes completed by Celta De Vigo. To solve this, I calculated the average amount of passes of the other teams and used this value as the missing data. Speaking of data, the data values had too many significant figures, so I rounded them to two decimal places. Furthermore, I removed the last column as it was redundant. Lastly, I removed the extra spaces from every element in the header, for example, I changed Red Card to RedCard. 
 
 ### Links
-[Original csv file](data/laligaStats.csv)
-[Clean csv file](data/clean_data.csv)
-[Spreadsheet file](data/data_spread.xlsx)
+[Original csv file](data/laligaStats.csv) \
+[Clean csv file](data/clean_data.csv) \
+[Spreadsheet file](data/data_spread.xlsx) \
 
 ## Analysis
 
 ### Aggregrate Statistics
-The statistics displayed in the data set are averages over thirty games
+The statistics displayed in the data set are averages over thirty games \
+
 
 **Data For Fouls**
-Average fouls committed = 12.47 -> This is quite a large amount for a team to commit per game
-Maximum fouls committed = 15.1 -> This shows that there exits a team that is quite aggressive
-Minimum fouls committed = 9.67 -> This shows that even the team with the lowest average of fouls is still fairly aggressive
-Standard Deviation of fouls Committed -> There is some variability in the number of fouls committed by players, but it is not an extreme amount of variability
+Average fouls committed = 12.47 -> This is quite a large amount for a team to commit per game \
+Maximum fouls committed = 15.1 -> This shows that there exits a team that is quite aggressive \
+Minimum fouls committed = 9.67 -> This shows that even the team with the lowest average of fouls is still fairly aggressive \
+Standard Deviation of fouls Committed -> There is some variability in the number of fouls committed by players, but it is not an extreme amount of variability \
 
 **Data For Shots On Target If Total Shots Is Greater Than 10**
-Average shots on target = 4.22 -> This is quite a small number, this shows that teams are quite inaccurate
-Maximum shots on target = 5.4 -> This shows that even the team with the highest average is still fairly accurate
-Minimum shots on target = 3.27 -> This shows that the team with the lowest average of fouls is still quite aggressive
-Sum of shots on target -> Overall measure of the average number of shots on target by teams with more than ten shots
+Average shots on target = 4.22 -> This is quite a small number, this shows that teams are quite inaccurate \
+Maximum shots on target = 5.4 -> This shows that even the team with the highest average is still fairly accurate \
+Minimum shots on target = 3.27 -> This shows that the team with the lowest average of fouls is still quite aggressive \
+Sum of shots on target -> Overall measure of the average number of shots on target by teams with more than ten shots \
 
 ### Chart
-![](images/graph.jpg)
-This linear regression chart clearly shows that the more a team has possession, the more shots on target it will have. By looking at this chart, one can conclude that the best tactic would be to retain possession and control the flow of the game.
+![](images/graph.jpg) \
+This linear regression chart clearly shows that the more a team has possession, the more shots on target it will have. By looking at this chart, one can conclude that the best tactic would be to retain possession and control the flow of the game
